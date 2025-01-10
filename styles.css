@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.header ul li {
+  margin: 5px 0;
+}
+
+.header .sub-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.features, .steps, .testimonials, .pricing, .faq {
+  padding: 40px 20px;
+  background: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.features h2, .steps h2, .testimonials h2, .pricing h2, .faq h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.features-list div {
+  flex: 1 1 calc(33.333% - 20px);
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.steps .step-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.steps .step-list div {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.testimonials .testimonial-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.pricing .price {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.pricing .cta-button {
+  margin-top: 20px;
+}
+
+.faq .faq-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.faq .faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
